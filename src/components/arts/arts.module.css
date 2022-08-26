@@ -1,0 +1,134 @@
+.main {
+  margin-top: 200px;
+  margin-left: 20%;
+  align-items: center;
+  text-align: left;
+}
+
+.main h2 {
+  font-size: 25px;
+  font-family: Work Sans ;
+  color: #172123;
+  padding: 3px;
+  letter-spacing: 1px;
+  width: 70%;
+/* justify-content: center; */
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.vbutton {
+  width: 200px;
+  height: 50px;
+  background: #080f22;
+  border: 1px solid #fdfcfb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fdfcfb;
+  top: -0.67%;
+  bottom: 0.67%;
+  font-family: 'Cutive Mono';
+  font-size: 20px;
+  transition: 0.4s;
+  margin-top: 50px;
+  cursor: pointer;
+  box-shadow: 4px 4px #e5e5e5;
+  margin-left: 20px;
+  display: block;
+
+}
+
+.vbutton:hover {
+  background-color: #fdfcfb;
+  border: 1px solid #080f22;
+  box-sizing: border-box;
+  color: #080f22;
+}
+
+.column img {
+  width: 100%;
+  flex: 50%;
+  align-items: center;
+  vertical-align: top;
+  display: inline-block;
+  border-bottom: 1px solid #080f22;
+}
+
+.column {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #080f22;
+  height: 500px;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  width: 75%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1330px) and (min-width: 900px) {
+  .landing {
+    margin: 30px 80px;
+  }
+  .grid .bigImage{
+    width: 90%;
+  }
+  .landing nav {
+    margin-bottom: 40px;
+  }
+  .logoDiv {
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .deepdiive{
+    width: 200px;
+  }
+  .title {
+    grid-gap: 6px;
+  }
+  .title span {
+    font-size: 34px;
+    padding: 1px;
+    width: 280px;
+    line-height: 52px;
+  }
+  .title span:nth-child(2) {
+    width: 330px;
+  }
+  .grid p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .highlight {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .grid input {
+    width: 250px;
+  }
+  .grid button {
+    width: 90px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+/* @media screen and (max-width: 1330px) {
+} */

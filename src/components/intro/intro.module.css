@@ -1,0 +1,110 @@
+.intro {
+  margin-top: 200px;
+  margin-left: 20%;
+  align-items: center;
+  text-align: left;
+}
+
+.intro h2 {
+  font-size: 20px;
+  font-family: Work Sans ;
+  color: #172123;
+  padding: 3px;
+  letter-spacing: 1px;
+  width: 75%;
+  margin-top: 10px;
+  line-height: 52px;
+/* justify-content: center; */
+  text-align: left;
+  padding-bottom: 100px;
+  
+}
+
+.intro h1 {
+  font-size: 50px;
+  font-family: 'Cutive Mono';
+  color: #172123;
+  padding: 3px;
+  width: 75%;
+  line-height: 62px;
+  text-align: left;
+  justify-content:'flex-start';
+  margin-left: 0;
+}
+
+.intro img {
+  object-fit: cover;
+  opacity: 60%;
+  padding-top: 15px;
+}
+
+
+.highlight {
+  font-weight: bold;
+  line-height: 35.5px;
+  letter-spacing: 0.3px;
+  font-size: 50px;
+  font-family: 'Cutive Mono';
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1330px) and (min-width: 900px) {
+  .landing {
+    margin: 30px 80px;
+  }
+  .grid .bigImage{
+    width: 90%;
+  }
+  .landing nav {
+    margin-bottom: 40px;
+  }
+  .logoDiv {
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .deepdiive{
+    width: 200px;
+  }
+  .title {
+    grid-gap: 6px;
+  }
+  .title span {
+    font-size: 34px;
+    padding: 1px;
+    width: 280px;
+    line-height: 52px;
+  }
+  .title span:nth-child(2) {
+    width: 330px;
+  }
+  .grid p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .highlight {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .grid input {
+    width: 250px;
+  }
+  .grid button {
+    width: 90px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+/* @media screen and (max-width: 1330px) {
+} */
