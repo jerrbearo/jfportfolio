@@ -10,8 +10,8 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={window.location.pathname || ''}>
-    <Route exact path="/" component={App} />
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App/>
   </BrowserRouter>
 
   
