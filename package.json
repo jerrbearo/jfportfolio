@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "main": "App.js",
+  "main": "index.js",
   "homepage": "https://jerrbearo.github.io/jfportfolio/",
   "dependencies": {
     "@expo-google-fonts/raleway": "^0.2.2",
@@ -43,5 +43,15 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrbearo/jfportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrbearo/jfportfolio/issues"
   }
 }
