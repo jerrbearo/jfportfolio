@@ -1,8 +1,9 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://jerrbearo.github.io/jfportfolio/",
   "private": true,
+  "main": "App.js",
+  "homepage": "https://jerrbearo.github.io/jfportfolio/",
   "dependencies": {
     "@expo-google-fonts/raleway": "^0.2.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d jfportfolio"
   },
   "eslintConfig": {
     "extends": [
